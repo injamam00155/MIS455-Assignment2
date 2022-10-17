@@ -9,7 +9,6 @@ body
 {
 
     display: flex;
-    height: 300px;
 }
 .topleft
 {
@@ -33,12 +32,11 @@ body
 .mid
 {
     display: flex;
-    height: 550px;
 }
 .midleft
 {
     flex: 1;
-    padding-left: 700px;
+    padding-left: 30%;
 }
 .midright
 {
@@ -49,17 +47,15 @@ body
 .bottom
 {
     display: flex;
-    height: 500px;
-
 }
 .item
 {
     flex: 1;
     margin: 10px;
     text-align: center;
-    font-size: 30px;
-    
-
+    color: rgb(205, 174, 50);
+    font-size: 50px;
+    text-shadow: -1px 1px 0 red, 1px 1px 0 red, 1px -1px 0 red,-1px -1px 0 red;
 }
 .title
 {
@@ -70,6 +66,11 @@ body
 {
     width: 380px;
     height: 450px;
-    border: solid yellow;
-    box-shadow: 15px 10px 100px black;
+    border: solid red;
+    box-shadow: 15px 10px 100px rgb(205, 174, 50);
+}
+.features
+{
+    font-size: 70%;
+    margin-bottom: 0px;
 }
